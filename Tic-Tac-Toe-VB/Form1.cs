@@ -38,6 +38,8 @@ namespace Tic_Tac_Toe_VB
 
             if (there_is_a_winner)
             {
+                disableButtons();
+
                 String winner = "";
                 if (turnq)
                     winner = "X";
@@ -47,5 +49,13 @@ namespace Tic_Tac_Toe_VB
                 MessageBox.Show(winner + " Won!", " Takes Home the Bacon!");
             }//end if
         }//end checkForWinner
+        private void disableButtons()
+        {
+            foreach (Control c in Controls)
+            {
+                Button b = (Button)c;
+                c.Enabled = false;
+            }
+        }
     }
 }
