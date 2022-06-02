@@ -53,6 +53,7 @@
             this.B1.Size = new System.Drawing.Size(100, 100);
             this.B1.TabIndex = 0;
             this.B1.UseVisualStyleBackColor = false;
+            this.B1.Click += new System.EventHandler(this.Click);
             // 
             // B2
             // 
@@ -64,6 +65,7 @@
             this.B2.Size = new System.Drawing.Size(100, 100);
             this.B2.TabIndex = 1;
             this.B2.UseVisualStyleBackColor = false;
+            this.B2.Click += new System.EventHandler(this.Click);
             // 
             // B3
             // 
@@ -75,6 +77,7 @@
             this.B3.Size = new System.Drawing.Size(100, 100);
             this.B3.TabIndex = 2;
             this.B3.UseVisualStyleBackColor = false;
+            this.B3.Click += new System.EventHandler(this.Click);
             // 
             // B6
             // 
@@ -86,6 +89,7 @@
             this.B6.Size = new System.Drawing.Size(100, 100);
             this.B6.TabIndex = 5;
             this.B6.UseVisualStyleBackColor = false;
+            this.B6.Click += new System.EventHandler(this.Click);
             // 
             // B5
             // 
@@ -97,6 +101,7 @@
             this.B5.Size = new System.Drawing.Size(100, 100);
             this.B5.TabIndex = 4;
             this.B5.UseVisualStyleBackColor = false;
+            this.B5.Click += new System.EventHandler(this.Click);
             // 
             // B4
             // 
@@ -108,6 +113,7 @@
             this.B4.Size = new System.Drawing.Size(100, 100);
             this.B4.TabIndex = 3;
             this.B4.UseVisualStyleBackColor = false;
+            this.B4.Click += new System.EventHandler(this.Click);
             // 
             // B9
             // 
@@ -119,6 +125,7 @@
             this.B9.Size = new System.Drawing.Size(100, 100);
             this.B9.TabIndex = 8;
             this.B9.UseVisualStyleBackColor = false;
+            this.B9.Click += new System.EventHandler(this.Click);
             // 
             // B8
             // 
@@ -130,6 +137,7 @@
             this.B8.Size = new System.Drawing.Size(100, 100);
             this.B8.TabIndex = 7;
             this.B8.UseVisualStyleBackColor = false;
+            this.B8.Click += new System.EventHandler(this.Click);
             // 
             // B7
             // 
@@ -141,6 +149,7 @@
             this.B7.Size = new System.Drawing.Size(100, 100);
             this.B7.TabIndex = 6;
             this.B7.UseVisualStyleBackColor = false;
+            this.B7.Click += new System.EventHandler(this.Click);
             // 
             // menuStrip1
             // 
