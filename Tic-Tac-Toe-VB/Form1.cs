@@ -20,6 +20,32 @@ namespace Tic_Tac_Toe_VB
 
             turnq = !turnq;
             b.Enabled = false;
+
+            checkForWinner();
         }
+        private void checkForWinner()
+        {
+
+            bool there_is_a_winner = false;
+
+            //horizontal checks
+            if ((B1.Text == B2.Text) && (B2.Text == B3.Text))
+                there_is_a_winner = true;
+            else if ((B4.Text == B5.Text) && (B5.Text == B6.Text))
+                there_is_a_winner = true;
+            else if ((B7.Text == B8.Text) && (B8.Text == B9.Text))
+                there_is_a_winner = true;
+
+            if (there_is_a_winner)
+            {
+                String winner = "";
+                if (turnq)
+                    winner = "X";
+                else
+                    winner = "O";
+
+                MessageBox.Show(winner + " Won!");
+            }//end if
+        }//end checkForWinner
     }
 }
