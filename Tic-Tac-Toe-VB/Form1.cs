@@ -43,7 +43,7 @@ namespace Tic_Tac_Toe_VB
                 there_is_a_winner = true;
             else if ((B2.Text == B5.Text) && (B5.Text == B8.Text) && (!B2.Enabled))
                 there_is_a_winner = true;
-            else if ((B3.Text == B6.Text) && (B6.Text == B9.Text) && (!B7.Enabled))
+            else if ((B3.Text == B6.Text) && (B6.Text == B9.Text) && (!B3.Enabled))
                 there_is_a_winner = true;
 
             //diagonal checks
@@ -61,11 +61,11 @@ namespace Tic_Tac_Toe_VB
 
                 String winner = "";
                 if (turnq)
-                    winner = "X";
-                else
                     winner = "O";
+                else
+                    winner = "X";
 
-                MessageBox.Show(winner + " Won!", " Takes Home the Bacon!");
+                MessageBox.Show(winner + " Won!");
             }//end if
 
             else
