@@ -20,6 +20,8 @@ namespace Tic_Tac_Toe_VB
 
             turnq = !turnq;
             b.Enabled = false;
+            
+            turn_count++;
 
             checkForWinner();
         }
@@ -48,6 +50,13 @@ namespace Tic_Tac_Toe_VB
 
                 MessageBox.Show(winner + " Won!", " Takes Home the Bacon!");
             }//end if
+
+            else
+            {
+                if (turn_count == 9)
+                    MessageBox.Show("Draw");
+            }
+
         }//end checkForWinner
         private void disableButtons()
         {
