@@ -29,19 +29,23 @@
         private void InitializeComponent()
         {
             this.B1 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.B2 = new System.Windows.Forms.Button();
+            this.B3 = new System.Windows.Forms.Button();
+            this.B6 = new System.Windows.Forms.Button();
+            this.B5 = new System.Windows.Forms.Button();
+            this.B4 = new System.Windows.Forms.Button();
+            this.B9 = new System.Windows.Forms.Button();
+            this.B8 = new System.Windows.Forms.Button();
+            this.B7 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.restartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // B1
             // 
-            this.B1.BackColor = System.Drawing.Color.Aquamarine;
+            this.B1.BackColor = System.Drawing.Color.MediumTurquoise;
             this.B1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.B1.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.B1.Location = new System.Drawing.Point(42, 36);
@@ -50,124 +54,160 @@
             this.B1.TabIndex = 0;
             this.B1.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // B2
             // 
-            this.button1.BackColor = System.Drawing.Color.Aquamarine;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(158, 36);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 100);
-            this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = false;
+            this.B2.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.B2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.B2.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.B2.Location = new System.Drawing.Point(158, 36);
+            this.B2.Name = "B2";
+            this.B2.Size = new System.Drawing.Size(100, 100);
+            this.B2.TabIndex = 1;
+            this.B2.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // B3
             // 
-            this.button2.BackColor = System.Drawing.Color.Aquamarine;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(274, 36);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 100);
-            this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = false;
+            this.B3.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.B3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.B3.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.B3.Location = new System.Drawing.Point(274, 36);
+            this.B3.Name = "B3";
+            this.B3.Size = new System.Drawing.Size(100, 100);
+            this.B3.TabIndex = 2;
+            this.B3.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // B6
             // 
-            this.button3.BackColor = System.Drawing.Color.Aquamarine;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(274, 153);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 100);
-            this.button3.TabIndex = 5;
-            this.button3.UseVisualStyleBackColor = false;
+            this.B6.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.B6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.B6.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.B6.Location = new System.Drawing.Point(274, 153);
+            this.B6.Name = "B6";
+            this.B6.Size = new System.Drawing.Size(100, 100);
+            this.B6.TabIndex = 5;
+            this.B6.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // B5
             // 
-            this.button4.BackColor = System.Drawing.Color.Aquamarine;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(158, 153);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 100);
-            this.button4.TabIndex = 4;
-            this.button4.UseVisualStyleBackColor = false;
+            this.B5.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.B5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.B5.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.B5.Location = new System.Drawing.Point(158, 153);
+            this.B5.Name = "B5";
+            this.B5.Size = new System.Drawing.Size(100, 100);
+            this.B5.TabIndex = 4;
+            this.B5.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // B4
             // 
-            this.button5.BackColor = System.Drawing.Color.Aquamarine;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button5.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(42, 153);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(100, 100);
-            this.button5.TabIndex = 3;
-            this.button5.UseVisualStyleBackColor = false;
+            this.B4.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.B4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.B4.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.B4.Location = new System.Drawing.Point(42, 153);
+            this.B4.Name = "B4";
+            this.B4.Size = new System.Drawing.Size(100, 100);
+            this.B4.TabIndex = 3;
+            this.B4.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // B9
             // 
-            this.button6.BackColor = System.Drawing.Color.Aquamarine;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(274, 267);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 100);
-            this.button6.TabIndex = 8;
-            this.button6.UseVisualStyleBackColor = false;
+            this.B9.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.B9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.B9.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.B9.Location = new System.Drawing.Point(274, 267);
+            this.B9.Name = "B9";
+            this.B9.Size = new System.Drawing.Size(100, 100);
+            this.B9.TabIndex = 8;
+            this.B9.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // B8
             // 
-            this.button7.BackColor = System.Drawing.Color.Aquamarine;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button7.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(158, 267);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(100, 100);
-            this.button7.TabIndex = 7;
-            this.button7.UseVisualStyleBackColor = false;
+            this.B8.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.B8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.B8.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.B8.Location = new System.Drawing.Point(158, 267);
+            this.B8.Name = "B8";
+            this.B8.Size = new System.Drawing.Size(100, 100);
+            this.B8.TabIndex = 7;
+            this.B8.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // B7
             // 
-            this.button8.BackColor = System.Drawing.Color.Aquamarine;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button8.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(42, 267);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(100, 100);
-            this.button8.TabIndex = 6;
-            this.button8.UseVisualStyleBackColor = false;
+            this.B7.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.B7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.B7.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.B7.Location = new System.Drawing.Point(42, 267);
+            this.B7.Name = "B7";
+            this.B7.Size = new System.Drawing.Size(100, 100);
+            this.B7.TabIndex = 6;
+            this.B7.UseVisualStyleBackColor = false;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(440, 24);
+            this.menuStrip1.TabIndex = 9;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // menuToolStripMenuItem
+            // 
+            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.restartToolStripMenuItem});
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.menuToolStripMenuItem.Text = "Menu";
+            // 
+            // restartToolStripMenuItem
+            // 
+            this.restartToolStripMenuItem.Name = "restartToolStripMenuItem";
+            this.restartToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.restartToolStripMenuItem.Text = "Restart";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(440, 379);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.B9);
+            this.Controls.Add(this.B8);
+            this.Controls.Add(this.B7);
+            this.Controls.Add(this.B6);
+            this.Controls.Add(this.B5);
+            this.Controls.Add(this.B4);
+            this.Controls.Add(this.B3);
+            this.Controls.Add(this.B2);
             this.Controls.Add(this.B1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.ShowIcon = false;
+            this.Text = "TIC-TAC-TOE";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private Button B1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
+        private Button B2;
+        private Button B3;
+        private Button B6;
+        private Button B5;
+        private Button B4;
+        private Button B9;
+        private Button B8;
+        private Button B7;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem menuToolStripMenuItem;
+        private ToolStripMenuItem restartToolStripMenuItem;
     }
 }
