@@ -29,11 +29,11 @@ namespace Tic_Tac_Toe_VB
             bool there_is_a_winner = false;
 
             //horizontal checks
-            if ((B1.Text == B2.Text) && (B2.Text == B3.Text))
+            if ((B1.Text == B2.Text) && (B2.Text == B3.Text) && (!B1.Enabled))
                 there_is_a_winner = true;
-            else if ((B4.Text == B5.Text) && (B5.Text == B6.Text))
+            else if ((B4.Text == B5.Text) && (B5.Text == B6.Text) && (!B4.Enabled))
                 there_is_a_winner = true;
-            else if ((B7.Text == B8.Text) && (B8.Text == B9.Text))
+            else if ((B7.Text == B8.Text) && (B8.Text == B9.Text) && (!B7.Enabled))
                 there_is_a_winner = true;
 
             if (there_is_a_winner)
@@ -44,7 +44,7 @@ namespace Tic_Tac_Toe_VB
                 else
                     winner = "O";
 
-                MessageBox.Show(winner + " Won!");
+                MessageBox.Show(winner + " Won!", " Takes Home the Bacon!");
             }//end if
         }//end checkForWinner
     }
